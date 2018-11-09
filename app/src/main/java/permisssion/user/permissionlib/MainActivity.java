@@ -15,7 +15,8 @@ private PermissionUtils permissionUtils;
             PermissionUtils.Companion.getREAD_CONTACTS(), PermissionUtils.Companion.getREAD_EXTERNAL_STORAGE(),
             PermissionUtils.Companion.getWRITE_EXTERNAL_STORAGE(), PermissionUtils.Companion.getCAMERA(),
             PermissionUtils.Companion.getSEND_SMS(), PermissionUtils.Companion.getREAD_SMS(),
-            PermissionUtils.Companion.getRECEIVE_SMS()};    @Override
+            PermissionUtils.Companion.getRECEIVE_SMS()};
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
